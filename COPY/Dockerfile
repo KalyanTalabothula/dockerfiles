@@ -1,3 +1,3 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-COPY 
+COPY index.html /usr/share/nginx/html/index.html
