@@ -1,3 +1,4 @@
+ARG version
 FROM almalinux
 ENV course="DevOps" \
     duration="120 hr" 
