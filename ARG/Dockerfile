@@ -5,4 +5,4 @@ ENV course="DevOps" \
 ARG trainer="kalyan"
 ENV trainer=$trainer
 RUN echo "hi, course is: ${course}, duration is: ${duration}, trainer is: ${trainer}, version is: ${version}"
-CMD [ "sleep", "999" ]
+CMD [ "sleep", "999" ] 
